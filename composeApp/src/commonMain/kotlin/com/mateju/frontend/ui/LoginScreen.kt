@@ -60,7 +60,7 @@ fun LoginScreen(
                     style = MaterialTheme.typography.titleMedium,
                 )
                 Text(
-                    text = "Tacos de pastor.",
+                    text = "Inicia sesión para llegar a tu espacio de aprendizaje.",
                     style = MaterialTheme.typography.bodyMedium,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
