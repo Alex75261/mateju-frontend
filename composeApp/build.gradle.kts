@@ -21,6 +21,11 @@ kotlin {
         }
     }
 
+    wasmJs {
+        browser()
+        binaries.executable()
+    }
+
     sourceSets {
         commonMain.dependencies {
             implementation("org.jetbrains.compose.runtime:runtime:1.12.1")
@@ -41,6 +46,9 @@ kotlin {
         getByName("desktopMain").dependencies {
             implementation("org.jetbrains.compose.desktop:desktop-jvm-windows-x64:1.12.1")
             implementation(libs.ktor.client.cio)
+        }
+        getByName("wasmJsMain").dependencies {
+            implementation(libs.ktor.client.js)
         }
     }
 }

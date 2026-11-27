@@ -11,4 +11,5 @@ actual fun createHttpClient(): HttpClient = HttpClient(OkHttp) {
     }
 }
 
-actual fun backendBaseUrl(): String = "http://10.0.2.2:8080"
+/** Change this once Railway generates the public HTTPS domain for the API. */
+actual fun backendBaseUrl(): String = "https://mateju-backend-production.up.railway.app"
