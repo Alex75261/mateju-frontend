@@ -60,7 +60,7 @@ fun LoginScreen(
                     style = MaterialTheme.typography.titleMedium,
                 )
                 Text(
-                    text = "Inicia secion para entrar a tu curso de aprendizaje XDD.",
+                    text = "Inicia secion para entrar a tu curso de aprendizaje.",
                     style = MaterialTheme.typography.bodyMedium,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
