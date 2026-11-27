@@ -60,7 +60,7 @@ fun LoginScreen(
                     style = MaterialTheme.typography.titleMedium,
                 )
                 Text(
-                    text = "Inicia sesión para llegar a tu espacio de aprendizaje.",
+                    text = "perritos calientees.",
                     style = MaterialTheme.typography.bodyMedium,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
