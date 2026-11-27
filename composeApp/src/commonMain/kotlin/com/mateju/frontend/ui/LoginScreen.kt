@@ -50,7 +50,7 @@ fun LoginScreen(
                 verticalArrangement = Arrangement.spacedBy(16.dp),
             ) {
                 Text(
-                    text = "mateju",
+                    text = "Axel Tapia Montalvo Kevin Javier Razo Rodriguez",
                     style = MaterialTheme.typography.displaySmall,
                     fontWeight = FontWeight.ExtraBold,
                     color = Color(0xFF168A4A),
